@@ -6,7 +6,7 @@ Instead of relying on complex churn models, we analyze **purchase trends over ti
 ## 📌 Problem Statement
 
 Customer churn rarely happens overnight.  
-In many cases, customers gradually reduce their purchasing frequency before stopping completely — a phenomenon often referred to as **silent churn**.
+In many cases, customers gradually reduce their purchasing frequency before stopping completely. Such a phenomenon is often referred to as **silent churn**.
 
 Traditional churn models:
 - Require labeled churn data
