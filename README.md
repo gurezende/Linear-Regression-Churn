@@ -3,8 +3,6 @@
 This project demonstrates a **simple, interpretable approach to detecting declining customer purchase behavior** using time series aggregation and linear regression.  
 Instead of relying on complex churn models, we analyze **purchase trends over time** to identify when customers are slowly disengaging.
 
----
-
 ## 📌 Problem Statement
 
 Customer churn rarely happens overnight.  
@@ -19,8 +17,6 @@ This project answers a simpler question:
 
 > **“Is this customer slowing down?”**
 
----
-
 ## 💡 Solution Overview
 
 We use **monthly purchase trends** and **linear regression** to measure customer momentum over time.
@@ -34,8 +30,6 @@ The core idea:
 
 A **negative slope** indicates declining engagement.
 
----
-
 ## 🧠 Why Linear Regression?
 
 - Extremely fast to compute
@@ -44,8 +38,6 @@ A **negative slope** indicates declining engagement.
 - Easy to explain to business stakeholders
 
 Instead of predicting churn, we **measure trend direction**.
-
----
 
 ## 🛠️ Methodology
 
@@ -74,8 +66,6 @@ The slope is converted to degrees using `arctan` for better interpretability:
 - Near zero → Stable behavior
 - Negative angle → Declining purchases
 
----
-
 ## 📈 Example Interpretation
 
 | Slope Angle | Interpretation |
@@ -86,16 +76,12 @@ The slope is converted to degrees using `arctan` for better interpretability:
 
 > These thresholds are adjustable depending on business context.
 
----
-
 ## 🧪 Notebook Highlights
 
 - Quick experimentation with `linregress`
 - Step-by-step trend calculation
 - Explicit handling of zero-purchase months
 - Business-friendly interpretation of mathematical results
-
----
 
 ## 🚀 Use Cases
 
@@ -105,15 +91,11 @@ The slope is converted to degrees using `arctan` for better interpretability:
 - Feature engineering for churn models
 - CRM prioritization
 
----
-
 ## 🔍 Limitations
 
 - Not a probabilistic churn prediction
 - Sensitive to very short time windows
 - Works best when combined with other behavioral signals
-
----
 
 ## 🧰 Tech Stack
 
@@ -123,8 +105,6 @@ The slope is converted to degrees using `arctan` for better interpretability:
 - SciPy
 - Jupyter Notebook
 
----
-
 ## 📖 Next Steps
 
 Possible extensions:
@@ -132,8 +112,6 @@ Possible extensions:
 - Combine slope with recency and frequency metrics
 - Feed trend features into a churn classification model
 - Automate monitoring with scheduled jobs
-
----
 
 ## ✍️ Author
 
