@@ -3,6 +3,8 @@
 This project demonstrates a **simple, interpretable approach to detecting declining customer purchase behavior** using time series aggregation and linear regression.  
 Instead of relying on complex churn models, we analyze **purchase trends over time** to identify when customers are slowly disengaging.
 
+![](./ChatGPT Image Jan 19, 2026, 11_27_28 PM.png)
+
 ## 📌 Problem Statement
 
 Customer churn rarely happens overnight.  
